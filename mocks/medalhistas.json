@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nome": "Michael Phelps",
+    "quantidadeDeMedalhas": {
+      "bronze": 2,
+      "prata": 3,
+      "ouro": 23
+    },
+    "nacionalidade": "Estados Unidos",
+    "esporte": "Natação",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3gXIZtSAl5kYI9A94513YDduQzoi8BUsf3ZJK6znI1w&s"
+  },
+  {
+    "id": 2,
+    "nome": "Larisa Latynina",
+    "quantidadeDeMedalhas": {
+      "bronze": 4,
+      "prata": 5,
+      "ouro": 9
+    },
+    "nacionalidade": "União Soviética",
+    "esporte": "Ginástica Artística",
+    "imagem": "https://s2.glbimg.com/2I5vCRI41RZI8mriD9pa00OXsfU=/0x0:300x396/300x397/s.glbimg.com/es/ge/f/original/2012/07/31/larissa-latynina1_afp30.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Carl Lewis",
+    "quantidadeDeMedalhas": {
+      "bronze": 1,
+      "prata": 3,
+      "ouro": 9
+    },
+    "nacionalidade": "Estados Unidos",
+    "esporte": "Atletismo",
+    "imagem": "https://cdn.britannica.com/80/196780-050-ECB01B9D/Carl-Lewis-Olympic-Games-Barcelona-1992.jpg"
+  },
+  {
+    "id": 4,
+    "nome": "Paavo Nurmi",
+    "quantidadeDeMedalhas": {
+      "bronze": 0,
+      "prata": 2,
+      "ouro": 9
+    },
+    "nacionalidade": "Finlândia",
+    "esporte": "Atletismo",
+    "imagem": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Paavo_Nurmi_%28Antwerp_1920%29.jpg"
+  },
+  {
+    "id": 5,
+    "nome": "Mark Spitz",
+    "quantidadeDeMedalhas": {
+      "bronze": 1,
+      "prata": 1,
+      "ouro": 9
+    },
+    "nacionalidade": "Estados Unidos",
+    "esporte": "Natação",
+    "imagem": "https://bestswimming.swimchannel.net/wp-content/uploads/2020/09/spitz-story.jpg"
+  },
+  {
+    "id": 6,
+    "nome": "Jenny Thompson",
+    "quantidadeDeMedalhas": {
+      "bronze": 3,
+      "prata": 4,
+      "ouro": 8
+    },
+    "nacionalidade": "Estados Unidos",
+    "esporte": "Natação",
+    "imagem": "https://bestswimming.swimchannel.net/wp-content/uploads/2020/03/jenny-thompson_1507200010.jpg"
+  },
+  {
+    "id": 7,
+    "nome": "Birgit Fischer",
+    "quantidadeDeMedalhas": {
+      "bronze": 1,
+      "prata": 4,
+      "ouro": 8
+    },
+    "nacionalidade": "Alemanha",
+    "esporte": "Canoagem",
+    "imagem": "https://www.olimpiadatododia.com.br/wp-content/uploads/2020/09/Birgit_Fischer.jpg"
+  },
+  {
+    "id": 8,
+    "nome": "Nikolai Andrianov",
+    "quantidadeDeMedalhas": {
+      "bronze": 3,
+      "prata": 5,
+      "ouro": 7
+    },
+    "nacionalidade": "União Soviética",
+    "esporte": "Ginástica Artística",
+    "imagem": "https://d2a3o6pzho379u.cloudfront.net/31235.jpg"
+  },
+  {
+    "id": 9,
+    "nome": "Borys Shakhlin",
+    "quantidadeDeMedalhas": {
+      "bronze": 1,
+      "prata": 2,
+      "ouro": 7
+    },
+    "nacionalidade": "União Soviética",
+    "esporte": "Ginástica Artística",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvGCKvu0EsIiRsqW7yzTpr59I0BPbkzBalM7cfLgvx_A&s"
+  },
+  {
+    "id": 10,
+    "nome": "Sawao Kato",
+    "quantidadeDeMedalhas": {
+      "bronze": 4,
+      "prata": 3,
+      "ouro": 8
+    },
+    "nacionalidade": "Japão",
+    "esporte": "Ginástica Artística",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGkJtUQULzuWURQfKyyALAZv6kPz-SvXRP2tfHjmVZA&s"
+  }
+]

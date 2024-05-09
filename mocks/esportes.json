@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nome": "Atletismo",
+    "imagem": "atletismo.jpg",
+    "descricao": "O atletismo é um conjunto de atividades esportivas que envolve corrida, saltos e arremessos."
+  },
+  {
+    "id": 2,
+    "nome": "Natação",
+    "imagem": "natacao.jpg",
+    "descricao": "A natação é um esporte em que os competidores nadam para a linha de chegada o mais rápido possível em diferentes estilos."
+  },
+  {
+    "id": 3,
+    "nome": "Basquetebol",
+    "imagem": "basquetebol.jpg",
+    "descricao": "O basquetebol é um esporte de equipe em que dois times, geralmente de cinco jogadores cada, competem para marcar pontos."
+  },
+  {
+    "id": 4,
+    "nome": "Ginástica Artística",
+    "imagem": "ginastica_artistica.jpg",
+    "descricao": "A ginástica artística é uma disciplina esportiva que envolve rotinas de movimentos acrobáticos, força e flexibilidade."
+  },
+  {
+    "id": 5,
+    "nome": "Futebol",
+    "imagem": "futebol.jpg",
+    "descricao": "O futebol é um esporte de equipe jogado entre dois times de onze jogadores cada, com o objetivo de marcar gols."
+  },
+  {
+    "id": 6,
+    "nome": "Vôlei",
+    "imagem": "volei.jpg",
+    "descricao": "O vôlei é um esporte de equipe em que dois times, separados por uma rede, competem para fazer a bola tocar o chão do campo adversário."
+  },
+  {
+    "id": 7,
+    "nome": "Judô",
+    "imagem": "judo.jpg",
+    "descricao": "O judô é uma arte marcial e esporte de combate que envolve técnicas de projeção, imobilização e estrangulamento."
+  },
+  {
+    "id": 8,
+    "nome": "Tênis de Mesa",
+    "imagem": "tenis_de_mesa.jpg",
+    "descricao": "O tênis de mesa é um esporte de raquete em que dois jogadores ou duplas competem para acertar a bola na mesa, passando por cima da rede."
+  },
+  {
+    "id": 9,
+    "nome": "Ciclismo",
+    "imagem": "ciclismo.jpg",
+    "descricao": "O ciclismo é um esporte que envolve o uso de bicicletas para corridas em estradas, pistas ou trilhas, além de provas de velocidade e resistência."
+  },
+  {
+    "id": 10,
+    "nome": "Hóquei sobre Grama",
+    "imagem": "hoquei_sobre_grama.jpg",
+    "descricao": "O hóquei sobre grama é um esporte de equipe em que os jogadores utilizam bastões para acertar uma bola de plástico em um gol adversário."
+  }
+]

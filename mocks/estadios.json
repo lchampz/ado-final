@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "estadio": "Estádio Olímpico",
+    "modalidadesPraticadas": [
+      "Atletismo",
+      "Futebol"
+    ],
+    "pais": "Brasil",
+    "dataEhora": "2024-08-02T14:00:00"
+  },
+  {
+    "id": 2,
+    "estadio": "Estádio Nacional de Tóquio",
+    "modalidadesPraticadas": [
+      "Natação",
+      "Saltos Ornamentais"
+    ],
+    "pais": "Japão",
+    "dataEhora": "2024-08-03T10:30:00"
+  },
+  {
+    "id": 3,
+    "estadio": "Estádio de Wembley",
+    "modalidadesPraticadas": [
+      "Futebol"
+    ],
+    "pais": "Reino Unido",
+    "dataEhora": "2024-08-04T15:45:00"
+  },
+  {
+    "id": 4,
+    "estadio": "Estádio Maracanã",
+    "modalidadesPraticadas": [
+      "Atletismo",
+      "Cerimônia de Encerramento"
+    ],
+    "pais": "Brasil",
+    "dataEhora": "2024-08-05T19:00:00"
+  },
+  {
+    "id": 5,
+    "estadio": "Estádio Nacional de Pequim",
+    "modalidadesPraticadas": [
+      "Ginástica Artística",
+      "Judô"
+    ],
+    "pais": "China",
+    "dataEhora": "2024-08-06T13:15:00"
+  },
+  {
+    "id": 6,
+    "estadio": "Estádio de Santiago Bernabéu",
+    "modalidadesPraticadas": [
+      "Futebol"
+    ],
+    "pais": "Espanha",
+    "dataEhora": "2024-08-07T16:30:00"
+  },
+  {
+    "id": 7,
+    "estadio": "Estádio de Luzhniki",
+    "modalidadesPraticadas": [
+      "Atletismo",
+      "Vôlei de Praia"
+    ],
+    "pais": "Rússia",
+    "dataEhora": "2024-08-08T11:00:00"
+  },
+  {
+    "id": 8,
+    "estadio": "Estádio Allianz Arena",
+    "modalidadesPraticadas": [
+      "Futebol"
+    ],
+    "pais": "Alemanha",
+    "dataEhora": "2024-08-09T18:00:00"
+  },
+  {
+    "id": 9,
+    "estadio": "Estádio Azteca",
+    "modalidadesPraticadas": [
+      "Futebol"
+    ],
+    "pais": "México",
+    "dataEhora": "2024-08-10T21:15:00"
+  },
+  {
+    "id": 10,
+    "estadio": "Estádio do Dragão",
+    "modalidadesPraticadas": [
+      "Futebol"
+    ],
+    "pais": "Portugal",
+    "dataEhora": "2024-08-11T14:45:00"
+  }
+]

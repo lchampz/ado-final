@@ -1,0 +1,104 @@
+body {
+ 
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-cards {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 10px;
+  padding: 3rem;
+}
+
+.card-atleta {
+  padding: 1rem;
+  min-width: 200px;
+  min-height: 300px;
+  max-width: 200px;
+  max-height: 300px;
+  border: 2px solid rgba(255, 255, 255, 0.11);
+  border-radius: 5px;
+  transition:all .2s linear;
+}
+
+.card-atleta:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 2px solid rgba(90, 90, 90, 0.11);
+}
+
+.card-atleta:nth-child(1):hover {
+  box-shadow: rgba(255, 240, 37, 0.555) 0px 7px 29px 0px;
+  border: 2px solid rgba(255, 231, 15, 0.61);
+}
+.card-atleta:nth-child(2):hover {
+  box-shadow: rgba(77, 77, 77, 0.555) 0px 7px 29px 0px;
+  border: 2px solid rgba(110, 110, 110, 0.61);
+}
+.card-atleta:nth-child(3):hover {
+  box-shadow: rgba(255, 170, 11, 0.555)0px 7px 29px 0px;
+  border: 2px solid rgba(255, 159, 50, 0.61);
+}
+
+
+.icon {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3gXIZtSAl5kYI9A94513YDduQzoi8BUsf3ZJK6znI1w&s");
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3px;
+  
+  width: 100%;
+  height: 40%;
+}
+
+.atleta-nome {
+  margin-bottom: -15px;
+}
+
+.sport {
+  padding-top: 10px;
+  font-weight: bold;
+  color: rgba(122, 122, 122, 0.753);
+  font-size: 13px;
+}
+.medalhas {
+  display: flex;
+  width: 100%;
+  align-items: space-around;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.medalhas span {
+  display: flex;
+ 
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: center;
+  gap: 3px;
+}
+
+.medalhas span:nth-child(1) {
+  color: gold;
+}
+.medalhas span:nth-child(2) {
+  color: rgb(119, 119, 119);
+}
+.medalhas span:nth-child(3) {
+  color: rgb(253, 177, 78);
+}
+
+.medalha {
+  width: 30px;
+  height: 30px;
+}
