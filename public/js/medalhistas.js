@@ -1,8 +1,5 @@
 const BASE_URL = "http://localhost:8080/";
 
-const ouro = "https://cdn-icons-png.flaticon.com/512/179/179249.png";
-const prata = "https://cdn-icons-png.flaticon.com/512/179/179251.png";
-const bronze = "https://cdn-icons-png.flaticon.com/512/179/179250.png";
 
 async function getMedalhistas() {
   const response = await fetch(BASE_URL + "medalhistas");
