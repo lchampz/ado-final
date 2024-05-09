@@ -10,4 +10,4 @@ Para rodar esse projeto, você vai precisar rodar os seguintes comandos:
 
 `npm start` -> para iniciar seu projeto!
 
-agora, basta entrar na url `http://127.0.0.1:5500/public/index.html` para acessar a aplicação
+agora, basta entrar na url `http:/localhost/public/index.html` para acessar a aplicação
