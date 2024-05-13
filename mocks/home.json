@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Medalhistas",
+        "imagem": "../images/atletas.jpg",
+        "caminho": "../medalhistas.html"
+    },
+    {
+        "id": 2,
+        "nome": "Esportes",
+        "imagem": "../images/esportes.jpg",
+        "caminho": "../esportes.html"
+    },
+    {
+        "id": 3,
+        "nome": "Estadios",
+        "imagem": "../images/estadios.jpg",
+        "caminho": "../estadios.html"
+    }
+]
