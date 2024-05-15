@@ -9,6 +9,7 @@
     },
     "nacionalidade": "Estados Unidos",
     "esporte": "Natação",
+    "podium": "1",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3gXIZtSAl5kYI9A94513YDduQzoi8BUsf3ZJK6znI1w&s"
   },
   {
@@ -21,6 +22,7 @@
     },
     "nacionalidade": "União Soviética",
     "esporte": "Ginástica Artística",
+    "podium": "2",
     "imagem": "https://s2.glbimg.com/2I5vCRI41RZI8mriD9pa00OXsfU=/0x0:300x396/300x397/s.glbimg.com/es/ge/f/original/2012/07/31/larissa-latynina1_afp30.jpg"
   },
   {
@@ -33,6 +35,7 @@
     },
     "nacionalidade": "Estados Unidos",
     "esporte": "Atletismo",
+    "podium": "3",
     "imagem": "https://cdn.britannica.com/80/196780-050-ECB01B9D/Carl-Lewis-Olympic-Games-Barcelona-1992.jpg"
   },
   {
