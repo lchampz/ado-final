@@ -16,4 +16,9 @@ router.get("/medalhistas", (req, res) => {
   res.send(medalhistas);
 })
 
+router.get("/estadios", (req, res) => {
+  res.send(estadios);
+})
+
+
 module.exports = router;

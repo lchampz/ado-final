@@ -8,6 +8,8 @@ body {
   flex: 1;
   flex-wrap: wrap;
   width: fit-content;
+  align-content: center;
+  justify-content: center;  
   gap: 10px;
   padding: 3rem;
 }
@@ -28,17 +30,20 @@ body {
   border: 2px solid rgba(90, 90, 90, 0.11);
 }
 
-.card-atleta:nth-child(1):hover {
+#podium-card-1:hover {
   box-shadow: rgba(255, 240, 37, 0.555) 0px 7px 29px 0px;
   border: 2px solid rgba(255, 231, 15, 0.61);
+  border-bottom:2px solid white;
 }
-.card-atleta:nth-child(2):hover {
+#podium-card-2:hover {
   box-shadow: rgba(77, 77, 77, 0.555) 0px 7px 29px 0px;
   border: 2px solid rgba(110, 110, 110, 0.61);
+  border-bottom:2px solid white;
 }
-.card-atleta:nth-child(3):hover {
+#podium-card-3:hover {
   box-shadow: rgba(255, 170, 11, 0.555)0px 7px 29px 0px;
   border: 2px solid rgba(255, 159, 50, 0.61);
+  border-bottom:2px solid white;
 }
 
 
@@ -46,7 +51,6 @@ body {
   width: 100%;
   height: 60%;
   border-radius: 10px;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3gXIZtSAl5kYI9A94513YDduQzoi8BUsf3ZJK6znI1w&s");
 }
 
 .info {
@@ -101,4 +105,65 @@ body {
 .medalha {
   width: 30px;
   height: 30px;
+}
+
+.podium-wrapper {
+  display: flex;
+ 
+  justify-content: center;
+ align-items: flex-end;
+  width: 100%;
+  align-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 80px;
+  background-color: rgb(226, 200, 54);
+  color: white;
+  font-size: 30px;
+  border-top: 5px solid rgb(170, 151, 42);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+#silver {
+  height: 60px;
+  background-color: rgb(82, 82, 82);
+  border-top: 5px solid rgb(51, 51, 51);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#copper {
+  height: 50px;
+  background-color: rgb(136, 54, 0);
+  border-top: 5px solid rgb(65, 26, 0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.podium-img {
+  border-radius: 10px;
+}
+
+.title {
+  color: #EE334E;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  font-size: 50px;
+  font-weight: bold;
 }

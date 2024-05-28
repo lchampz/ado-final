@@ -15,6 +15,6 @@ app.use(routes);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => {
-  console.log('\n' + '\x1b[36m%s\x1b[0m', `[Server] running on http://localhost:${PORT}`);
+  console.log('\n' + '\x1b[36m%s\x1b[0m', `[Server] running on http://localhost:${PORT}/Pages/Home/index.html`);
 })
 

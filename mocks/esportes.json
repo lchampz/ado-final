@@ -1,62 +1,265 @@
-[
-  {
-    "id": 1,
-    "nome": "Atletismo",
-    "imagem": "atletismo.jpg",
-    "descricao": "O atletismo é um conjunto de atividades esportivas que envolve corrida, saltos e arremessos."
-  },
-  {
-    "id": 2,
-    "nome": "Natação",
-    "imagem": "natacao.jpg",
-    "descricao": "A natação é um esporte em que os competidores nadam para a linha de chegada o mais rápido possível em diferentes estilos."
-  },
-  {
-    "id": 3,
-    "nome": "Basquetebol",
-    "imagem": "basquetebol.jpg",
-    "descricao": "O basquetebol é um esporte de equipe em que dois times, geralmente de cinco jogadores cada, competem para marcar pontos."
-  },
-  {
-    "id": 4,
-    "nome": "Ginástica Artística",
-    "imagem": "ginastica_artistica.jpg",
-    "descricao": "A ginástica artística é uma disciplina esportiva que envolve rotinas de movimentos acrobáticos, força e flexibilidade."
-  },
-  {
-    "id": 5,
-    "nome": "Futebol",
-    "imagem": "futebol.jpg",
-    "descricao": "O futebol é um esporte de equipe jogado entre dois times de onze jogadores cada, com o objetivo de marcar gols."
-  },
-  {
-    "id": 6,
-    "nome": "Vôlei",
-    "imagem": "volei.jpg",
-    "descricao": "O vôlei é um esporte de equipe em que dois times, separados por uma rede, competem para fazer a bola tocar o chão do campo adversário."
-  },
-  {
-    "id": 7,
-    "nome": "Judô",
-    "imagem": "judo.jpg",
-    "descricao": "O judô é uma arte marcial e esporte de combate que envolve técnicas de projeção, imobilização e estrangulamento."
-  },
-  {
-    "id": 8,
-    "nome": "Tênis de Mesa",
-    "imagem": "tenis_de_mesa.jpg",
-    "descricao": "O tênis de mesa é um esporte de raquete em que dois jogadores ou duplas competem para acertar a bola na mesa, passando por cima da rede."
-  },
-  {
-    "id": 9,
-    "nome": "Ciclismo",
-    "imagem": "ciclismo.jpg",
-    "descricao": "O ciclismo é um esporte que envolve o uso de bicicletas para corridas em estradas, pistas ou trilhas, além de provas de velocidade e resistência."
-  },
-  {
-    "id": 10,
-    "nome": "Hóquei sobre Grama",
-    "imagem": "hoquei_sobre_grama.jpg",
-    "descricao": "O hóquei sobre grama é um esporte de equipe em que os jogadores utilizam bastões para acertar uma bola de plástico em um gol adversário."
-  }
-]
+{
+  "sports": [
+    {
+      "id": 1,
+      "name": "Atletismo",
+      "description": "Conjunto de modalidades esportivas que incluem corrida, salto e arremesso.",
+      "image": "url_ou_caminho_da_imagem_atletismo"
+    },
+    {
+      "id": 2,
+      "name": "Badminton",
+      "description": "Esporte de raquete jogado individualmente ou em duplas.",
+      "image": "url_ou_caminho_da_imagem_badminton"
+    },
+    {
+      "id": 3,
+      "name": "Basquete",
+      "description": "Esporte coletivo jogado entre duas equipes de cinco jogadores cada.",
+      "image": "url_ou_caminho_da_imagem_basquete"
+    },
+    {
+      "id": 4,
+      "name": "Boxe",
+      "description": "Esporte de combate em que dois participantes lutam usando apenas os punhos.",
+      "image": "url_ou_caminho_da_imagem_boxe"
+    },
+    {
+      "id": 5,
+      "name": "Breaking",
+      "description": "Estilo de dança de rua que será incluído como esporte olímpico.",
+      "image": "url_ou_caminho_da_imagem_breaking"
+    },
+    {
+      "id": 6,
+      "name": "Canoagem",
+      "subcategories": [
+        {
+          "name": "Velocidade",
+          "image": "url_ou_caminho_da_imagem_velocidade"
+        },
+        {
+          "name": "Slalom",
+          "image": "url_ou_caminho_da_imagem_slalom"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Ciclismo",
+      "subcategories": [
+        {
+          "name": "BMX Freestyle",
+          "image": "url_ou_caminho_da_imagem_bmx_freestyle"
+        },
+        {
+          "name": "BMX Racing",
+          "image": "url_ou_caminho_da_imagem_bmx_racing"
+        },
+        {
+          "name": "De Estrada",
+          "image": "url_ou_caminho_da_imagem_de_estrada"
+        },
+        {
+          "name": "De Pista",
+          "image": "url_ou_caminho_da_imagem_de_pista"
+        },
+        {
+          "name": "Mountain Bike",
+          "image": "url_ou_caminho_da_imagem_mountain_bike"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Escalada",
+      "description": "Esporte que envolve subir superfícies verticais usando as mãos e os pés.",
+      "image": "url_ou_caminho_da_imagem_escalada"
+    },
+    {
+      "id": 9,
+      "name": "Esgrima",
+      "description": "Esporte de combate que usa armas brancas, como florete, espada e sabre.",
+      "image": "url_ou_caminho_da_imagem_esgrima"
+    },
+    {
+      "id": 10,
+      "name": "Futebol",
+      "description": "Esporte coletivo jogado entre duas equipes de onze jogadores com uma bola.",
+      "image": "url_ou_caminho_da_imagem_futebol"
+    },
+    {
+      "id": 11,
+      "name": "Ginástica",
+      "subcategories": [
+        {
+          "name": "Artística",
+          "image": "url_ou_caminho_da_imagem_artistica"
+        },
+        {
+          "name": "De Trampolim",
+          "image": "url_ou_caminho_da_imagem_de_trampolim"
+        },
+        {
+          "name": "Rítmica",
+          "image": "url_ou_caminho_da_imagem_ritmica"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Golfe",
+      "description": "Esporte em que jogadores usam diversos tacos para acertar uma bola em uma série de buracos no menor número de tacadas possíveis.",
+      "image": "url_ou_caminho_da_imagem_golfe"
+    },
+    {
+      "id": 13,
+      "name": "Handebol",
+      "description": "Esporte coletivo jogado entre duas equipes de sete jogadores cada.",
+      "image": "url_ou_caminho_da_imagem_handebol"
+    },
+    {
+      "id": 14,
+      "name": "Hipismo",
+      "description": "Esporte equestre que inclui várias disciplinas, como saltos, adestramento e CCE.",
+      "image": "url_ou_caminho_da_imagem_hipismo"
+    },
+    {
+      "id": 15,
+      "name": "Hóquei sobre Grama",
+      "description": "Esporte coletivo jogado entre duas equipes de onze jogadores cada, usando bastões para golpear uma pequena bola.",
+      "image": "url_ou_caminho_da_imagem_hoquei_sobre_grama"
+    },
+    {
+      "id": 16,
+      "name": "Judô",
+      "description": "Arte marcial japonesa que se tornou um esporte olímpico.",
+      "image": "url_ou_caminho_da_imagem_judo"
+    },
+    {
+      "id": 17,
+      "name": "Levantamento de Peso",
+      "description": "Esporte de força em que os atletas tentam levantar o máximo de peso possível em duas modalidades: arranco e arremesso.",
+      "image": "url_ou_caminho_da_imagem_levantamento_de_peso"
+    },
+    {
+      "id": 18,
+      "name": "Luta",
+      "description": "Esporte de combate corpo a corpo com várias disciplinas, incluindo luta livre e greco-romana.",
+      "image": "url_ou_caminho_da_imagem_luta"
+    },
+    {
+      "id": 19,
+      "name": "Maratona Aquática",
+      "description": "Prova de natação de longa distância realizada em águas abertas.",
+      "image": "url_ou_caminho_da_imagem_maratona_aquatica"
+    },
+    {
+      "id": 20,
+      "name": "Nado Artístico",
+      "description": "Esporte aquático que combina natação, dança e ginástica.",
+      "image": "url_ou_caminho_da_imagem_nado_artistico"
+    },
+    {
+      "id": 21,
+      "name": "Natação",
+      "description": "Esporte aquático que envolve várias modalidades de nado em piscina.",
+      "image": "url_ou_caminho_da_imagem_natacao"
+    },
+    {
+      "id": 22,
+      "name": "Pentatlo Moderno",
+      "description": "Esporte que inclui cinco disciplinas: esgrima, natação, hipismo, tiro esportivo e corrida.",
+      "image": "url_ou_caminho_da_imagem_pentatlo_moderno"
+    },
+    {
+      "id": 23,
+      "name": "Polo Aquático",
+      "description": "Esporte coletivo jogado em uma piscina entre duas equipes de sete jogadores cada.",
+      "image": "url_ou_caminho_da_imagem_polo_aquatico"
+    },
+    {
+      "id": 24,
+      "name": "Remo",
+      "description": "Esporte em que os atletas competem em barcos de vários tipos e tamanhos.",
+      "image": "url_ou_caminho_da_imagem_remo"
+    },
+    {
+      "id": 25,
+      "name": "Rugby Sevens",
+      "description": "Versão do rugby jogada com sete jogadores em cada equipe.",
+      "image": "url_ou_caminho_da_imagem_rugby_sevens"
+    },
+    {
+      "id": 26,
+      "name": "Saltos Ornamentais",
+      "description": "Esporte aquático em que os atletas realizam saltos acrobáticos em uma piscina.",
+      "image": "url_ou_caminho_da_imagem_saltos_ornamentais"
+    },
+    {
+      "id": 27,
+      "name": "Skate",
+      "description": "Esporte que envolve manobras e acrobacias em uma prancha com rodinhas.",
+      "image": "url_ou_caminho_da_imagem_skate"
+    },
+    {
+      "id": 28,
+      "name": "Surfe",
+      "description": "Esporte aquático em que os atletas montam pranchas para deslizar sobre as ondas.",
+      "image": "url_ou_caminho_da_imagem_surfe"
+    },
+    {
+      "id": 29,
+      "name": "Taekwondo",
+      "description": "Arte marcial coreana que se tornou um esporte olímpico.",
+      "image": "url_ou_caminho_da_imagem_taekwondo"
+    },
+    {
+      "id": 30,
+      "name": "Tênis",
+      "description": "Esporte de raquete jogado individualmente ou em duplas.",
+      "image": "url_ou_caminho_da_imagem_tenis"
+    },
+    {
+      "id": 31,
+      "name": "Tênis de Mesa",
+      "description": "Esporte de raquete jogado em uma mesa com uma rede no meio.",
+      "image": "url_ou_caminho_da_imagem_tenis_de_mesa"
+    },
+    {
+      "id": 32,
+      "name": "Tiro com Arco",
+      "description": "Esporte que envolve disparar flechas com um arco em um alvo.",
+      "image": "url_ou_caminho_da_imagem_tiro_com_arco"
+    },
+    {
+      "id": 33,
+      "name": "Tiro Esportivo",
+      "description": "Esporte que envolve precisão no disparo de armas de fogo.",
+      "image": "url_ou_caminho_da_imagem_tiro_esportivo"
+    },
+    {
+      "id": 34,
+      "name": "Triatlo",
+      "description": "Esporte que combina natação, ciclismo e corrida em sequência.",
+      "image": "url_ou_caminho_da_imagem_triatlo"
+    },
+    {
+      "id": 35,
+      "name": "Vela",
+      "description": "Esporte aquático que envolve a navegação de barcos à vela.",
+      "image": "url_ou_caminho_da_imagem_vela"
+    },
+    {
+      "id": 36,
+      "name": "Vôlei",
+      "subcategories": [
+        {
+          "name": "Vôlei de Praia",
+          "image": "url_ou_caminho_da_imagem_volei_de_praia"
+        }
+      ],
+      "image": "url_ou_caminho_da_imagem_volei"
+    }
+  ]
+}

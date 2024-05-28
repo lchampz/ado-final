@@ -2,19 +2,19 @@
     {
         "id": 1,
         "nome": "Medalhistas",
-        "imagem": "../images/atletas.jpg",
-        "caminho": "../medalhistas.html"
+        "imagem": "../../images/atletas.jpg",
+        "caminho": "../../Medalhistas/medalhistas.html"
     },
     {
         "id": 2,
         "nome": "Esportes",
-        "imagem": "../images/esportes.jpg",
-        "caminho": "../esportes.html"
+        "imagem": "../../images/esportes.jpg",
+        "caminho": "../../Esportes/dashboardEsportes.html"
     },
     {
         "id": 3,
         "nome": "Estadios",
-        "imagem": "../images/estadios.jpg",
-        "caminho": "../estadios.html"
+        "imagem": "../../images/estadios.jpg",
+        "caminho": "../../Estadios/estadios.html"
     }
 ]
