@@ -20,7 +20,7 @@ function redirectWithDelay(url, delay) {
 document.getElementById('card-esportes').addEventListener('click', function() {
     confetti.start();
     setTimeout(() => {
-        redirectWithDelay('Pages/Esportes/esportes.html', 1000); // Redireciona após 1 segundo
+        redirectWithDelay('esportes.html', 1000); // Redireciona após 1 segundo
         setTimeout(() => {
             confetti.stop();
         }, 2000); // Para os confetes após 2 segundos (1 segundo de exibição mais 1 segundo de atraso)
@@ -30,7 +30,7 @@ document.getElementById('card-esportes').addEventListener('click', function() {
 document.getElementById('card-estatisticas').addEventListener('click', function() {
     confetti.start();
     setTimeout(() => {
-        window.location.href = 'Pages/Esportes/estatisticas.html'; // Redireciona imediatamente
+        window.location.href = 'estatisticas.html'; // Redireciona imediatamente
         setTimeout(() => {
             confetti.stop();
         }, 1000); // Para os confetes após 1 segundo
