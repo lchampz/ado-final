@@ -14,7 +14,7 @@ fetch("http://localhost:8080/home")
       card.innerHTML += `
          
           <div class="info">
-            <span class="nome">${item.nome}</span>
+            <span style="color: black" class="nome">${item.nome}</span>
           </div>
           
           `;

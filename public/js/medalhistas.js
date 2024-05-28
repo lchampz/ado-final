@@ -39,12 +39,11 @@ async function createCards() {
   players.forEach((item) => {
     const card = document.createElement("div");
     card.classList.add("card-atleta");
-    const img = document.createElement("div");
-    img.classList.add("icon");
 
-    img.style.backgroundImage = `url(${item.imagem})`;
-    card.append(img);
     card.innerHTML += `
+    <div class="icon" style="padding-bottom: 20px">
+      <img class="podium-img" style="width: 100%; height: 200px" src="${item.imagem}" />
+    </div>
     <div class="info">
       <span class="atleta-nome">${item.nome}</span>
       <span class="sport">${item.esporte}</span>
