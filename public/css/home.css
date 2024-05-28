@@ -23,6 +23,9 @@ body {
     flex: 1;
     flex-wrap: wrap;
     width: fit-content;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     padding: 3rem;
   }
@@ -37,8 +40,7 @@ body {
     margin-right: 55px;
     padding: 1rem;
     cursor: pointer;
-    min-width: 500px;
-    min-height: 600px;
+   
     max-width: 500px;
     max-height: 600px;
     border: 2px solid rgba(255, 255, 255, 0.11);
@@ -58,11 +60,12 @@ body {
   }
   
   .icon {
-    width: 500px;
+    width: 350px;
     height: 350px;
     border-radius: 10px;
     background-image: url("../images/atletas.jpg");
     background-size: cover;
+    background-position:-80px;
 }
   
   .info {
