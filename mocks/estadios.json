@@ -1,97 +1,135 @@
 [
   {
     "id": 1,
-    "estadio": "Estádio Olímpico",
-    "modalidadesPraticadas": [
-      "Atletismo",
-      "Futebol"
+    "nome": "Estádio Bordeaux",
+    "capacidade": "42.115",
+    "descricao": "O Estádio Bordeaux é uma instalação esportiva localizada em Bordeaux, França. Foi construído em 2015 e é principalmente utilizado para partidas de futebol. É a casa do clube de futebol FC Girondins de Bordeaux.",
+    "modalidadesPraticadas": ["Futebol"],
+    "pais": "França",
+    "calendario": [
+      {
+        "modalidade": "Futebol",
+        "dataEhora": "2024-07-28T16:00:00"
+      },
+      {
+        "modalidade": "Futebol",
+        "dataEhora": "2024-07-31T18:00:00"
+      }
     ],
-    "pais": "Brasil",
-    "dataEhora": "2024-08-02T14:00:00"
-  },
-  {
-    "id": 2,
-    "estadio": "Estádio Nacional de Tóquio",
-    "modalidadesPraticadas": [
-      "Natação",
-      "Saltos Ornamentais"
-    ],
-    "pais": "Japão",
-    "dataEhora": "2024-08-03T10:30:00"
-  },
-  {
-    "id": 3,
-    "estadio": "Estádio de Wembley",
-    "modalidadesPraticadas": [
-      "Futebol"
-    ],
-    "pais": "Reino Unido",
-    "dataEhora": "2024-08-04T15:45:00"
-  },
-  {
-    "id": 4,
-    "estadio": "Estádio Maracanã",
-    "modalidadesPraticadas": [
-      "Atletismo",
-      "Cerimônia de Encerramento"
-    ],
-    "pais": "Brasil",
-    "dataEhora": "2024-08-05T19:00:00"
-  },
-  {
-    "id": 5,
-    "estadio": "Estádio Nacional de Pequim",
-    "modalidadesPraticadas": [
-      "Ginástica Artística",
-      "Judô"
-    ],
-    "pais": "China",
-    "dataEhora": "2024-08-06T13:15:00"
-  },
-  {
-    "id": 6,
-    "estadio": "Estádio de Santiago Bernabéu",
-    "modalidadesPraticadas": [
-      "Futebol"
-    ],
-    "pais": "Espanha",
-    "dataEhora": "2024-08-07T16:30:00"
-  },
-  {
-    "id": 7,
-    "estadio": "Estádio de Luzhniki",
-    "modalidadesPraticadas": [
-      "Atletismo",
-      "Vôlei de Praia"
-    ],
-    "pais": "Rússia",
-    "dataEhora": "2024-08-08T11:00:00"
-  },
-  {
-    "id": 8,
-    "estadio": "Estádio Allianz Arena",
-    "modalidadesPraticadas": [
-      "Futebol"
-    ],
-    "pais": "Alemanha",
-    "dataEhora": "2024-08-09T18:00:00"
-  },
-  {
-    "id": 9,
-    "estadio": "Estádio Azteca",
-    "modalidadesPraticadas": [
-      "Futebol"
-    ],
-    "pais": "México",
-    "dataEhora": "2024-08-10T21:15:00"
-  },
-  {
-    "id": 10,
-    "estadio": "Estádio do Dragão",
-    "modalidadesPraticadas": [
-      "Futebol"
-    ],
-    "pais": "Portugal",
-    "dataEhora": "2024-08-11T14:45:00"
-  }
+    "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w960/f_auto/primary/rjzb4skmiq47xfuqwjbl"
+},
+{
+  "id": 2,
+  "nome": "Estádio Geoffroy Guichard",
+  "capacidade": "41.965",
+  "descricao": "O Estádio Geoffroy Guichard, também conhecido como 'Le Chaudron' (A Caldeira), é um estádio localizado em Saint-Étienne, na França. Inaugurado em 1931, é o lar do clube de futebol AS Saint-Étienne.",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-07-29T16:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-01T18:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/hd99ljofaoyqxd4xhpjj"
+},
+{
+  "id": 3,
+  "nome": "Estádio La Beaujoire",
+  "capacidade": "35.322",
+  "descricao": "O Estádio La Beaujoire é um estádio localizado em Nantes, França. Foi inaugurado em 1984 e é principalmente utilizado para partidas de futebol. É o lar do clube de futebol FC Nantes.",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-07-30T16:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-03T18:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/t4mmbub6yed1nkdy7ili"
+},
+{
+  "id": 4,
+  "nome": "Estádio do Lyon",
+  "capacidade": "59.286",
+  "descricao": "O Estádio do Lyon, oficialmente conhecido como Groupama Stadium por razões de patrocínio, é um estádio localizado em Lyon, França. Inaugurado em 2016, é principalmente utilizado para partidas de futebol. É o lar do clube de futebol Olympique Lyonnais.",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-04T16:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-07T18:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/beekk7tvfg9hzosbxccr"
+},
+{
+  "id": 5,
+  "nome": "Estádio de Marselha",
+  "capacidade": "67.394",
+  "descricao": "O Estádio de Marselha, oficialmente conhecido como Stade Vélodrome por razões de patrocínio, é um estádio localizado em Marselha, França. Inaugurado em 1937, é principalmente utilizado para partidas de futebol. É o lar do clube de futebol Olympique de Marseille.",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-05T16:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-08T18:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/ziotfeuhilbeeh6amsal"
+},
+{
+  "id": 6,
+  "nome": "Estádio de Nice",
+  "capacidade": "35.624",
+  "descricao": "O Estádio de Nice, oficialmente conhecido como Allianz Riviera por razões de patrocínio, é um estádio localizado em Nice, França. Inaugurado em 2013, é principalmente utilizado para partidas de futebol. É o lar do clube de futebol OGC Nice.",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-06T16:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-09T18:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/gkdqkzamz08sdohss8uw"
+},
+{
+  "id": 7,
+  "nome": "Parc des Princes",
+  "capacidade": "48.712",
+  "descricao": "O Parc des Princes é um estádio localizado em Paris, França. Inaugurado em 1972, é principalmente utilizado para partidas de futebol. É o lar do clube de futebol Paris Saint-Germain (PSG).",
+  "modalidadesPraticadas": ["Futebol"],
+  "pais": "França",
+  "calendario": [
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-06T18:00:00"
+    },
+    {
+      "modalidade": "Futebol",
+      "dataEhora": "2024-08-09T20:00:00"
+    }
+  ],
+  "urlImagem": "https://img.olympics.com/images/image/private/t_s_16_9_g_auto/t_s_w1460/f_auto/primary/vgwvwnncpkbz1pwlpx73"
+}
 ]
