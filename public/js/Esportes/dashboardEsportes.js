@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3080/";
+const BASE_URL = "http://localhost:8080/";
 
 let esportes = [];
 

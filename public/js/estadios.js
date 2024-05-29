@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     fetch('http://localhost:8080/estadios')
-      .then(response => response.json())
-      .then(data => {
-        const estadiosList = document.getElementById('estadio-list');
-        const estadioNomes = [];
-        const estadioCapacidades = [];
-  
-        data.forEach((estadio, index) => {
-          estadioNomes.push(estadio.nome);
-          estadioCapacidades.push(estadio.capacidade);
-  
-          const estadioDiv = document.createElement('div');
-          const directionClass = index % 2 === 0 ? 'flex-row' : 'flex-row-reverse';
-          estadioDiv.innerHTML = `
+        .then(response => response.json())
+        .then(data => {
+            const estadiosList = document.getElementById('estadio-list');
+            const estadioNomes = [];
+            const estadioCapacidades = [];
+
+            data.forEach((estadio, index) => {
+                estadioNomes.push(estadio.nome);
+                estadioCapacidades.push(estadio.capacidade);
+
+                const estadioDiv = document.createElement('div');
+                const directionClass = index % 2 === 0 ? 'flex-row' : 'flex-row-reverse';
+                estadioDiv.innerHTML = `
           <div class="card">
               <h2>${estadio.nome}</h2>
               <div class="orientacao ${directionClass}">
@@ -38,23 +38,23 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
           </div>
           `;
-          estadiosList.appendChild(estadioDiv);
-        });
-  
-        createCapacityChart(estadioNomes, estadioCapacidades);
-      })
-      .catch(error => console.error('Erro ao carregar os estádios:', error));
-  
+                estadiosList.appendChild(estadioDiv);
+            });
+
+            createCapacityChart(estadioNomes, estadioCapacidades);
+        })
+        .catch(error => console.error('Erro ao carregar os estádios:', error));
+
     function formatarData(dataEhora) {
-      const data = new Date(dataEhora);
-      const dia = data.getDate().toString().padStart(2, '0');
-      const mes = (data.getMonth() + 1).toString().padStart(2, '0');
-      const ano = data.getFullYear();
-      const hora = data.getHours().toString().padStart(2, '0');
-      const minuto = data.getMinutes().toString().padStart(2, '0');
-      return `${dia}/${mes}/${ano} ${hora}:${minuto}`;
+        const data = new Date(dataEhora);
+        const dia = data.getDate().toString().padStart(2, '0');
+        const mes = (data.getMonth() + 1).toString().padStart(2, '0');
+        const ano = data.getFullYear();
+        const hora = data.getHours().toString().padStart(2, '0');
+        const minuto = data.getMinutes().toString().padStart(2, '0');
+        return `${dia}/${mes}/${ano} ${hora}:${minuto}`;
     }
-  
+
     function createCapacityChart(labels, data) {
         const ctx = document.getElementById('capacityChart').getContext('2d');
         new Chart(ctx, {
@@ -94,15 +94,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
-    
-    
-  });
-  document.addEventListener("DOMContentLoaded", function() {
+
+
+});
+document.addEventListener("DOMContentLoaded", function () {
     const backButton = document.getElementById("backButton");
-  
-    backButton.addEventListener("click", function(event) {
+
+    backButton.addEventListener("click", function (event) {
         event.preventDefault(); // Previne o comportamento padrão do link (neste caso, seguir o href)
         window.history.back(); // Volta para a página anterior
     });
-  });
-  
+});
