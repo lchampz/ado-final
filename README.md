@@ -1,7 +1,5 @@
 # ADO - Olimpiadas
 
-{Bolar descrição}
-
 ## Variáveis de Ambiente
 
 Para rodar esse projeto, você vai precisar rodar os seguintes comandos:
