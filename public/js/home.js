@@ -1,3 +1,14 @@
+let userName = window.prompt('Qual é seu nome?');
+
+if (userName) {
+    window.alert(`Bem-vindo, ${userName}!`);
+    // Inicia os confetes ao dar as boas-vindas
+    confetti.start(1000);  // 1000 ms para começar
+    setTimeout(() => {
+        confetti.stop();
+    }, 5000);  // 5000 ms para parar
+}
+
 fetch("http://localhost:8080/home")
   .then((response) => response.json())
   .then((data) => {
@@ -25,3 +36,4 @@ fetch("http://localhost:8080/home")
     });
   })
   .catch((error) => console.error("Erro ao carregar", error));
+

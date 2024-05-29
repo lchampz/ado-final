@@ -2,6 +2,9 @@ const BASE_URL = "http://localhost:8080/";
 
 let esportes = [];
 
+
+// Função para redirecionar com atraso
+
 // Função para redirecionar com atraso
 function redirectWithDelay(url, delay) {
     setTimeout(() => {
