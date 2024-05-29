@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estádios</title>
+    <link rel="stylesheet" href="../../css/estadio.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <img src="../../images/Esportes/image2.png" alt="Logo jogos olimpicos Paris 2024">
+            <ul>
+                <li><a class="actual" href="../Home/index.html">HOME</a></li>
+                <li><a href="../Medalhistas/medalhistas.html">HALL DA FAMA</a></li>
+                <li><a href="../Esportes/dashboardEsportes.html">ESPORTES</a></li>
+                <li><a href="../Estadios/estadios.html">ESTÁDIOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="backButton"class="tooltip">
+        <img src="../../images/bola.png" alt="">
+        <span class="tooltiptext">Voltar</span>
+    </button>
+    <div id="estadio-list"></div>
+    
+    <div class="card">
+        <div class="grafico">
+            <h2>Capacidade dos Estádios</h2>
+            <canvas id="capacityChart"></canvas>
+        </div>
+        
+    </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="../../js/estadios.js"></script>
+
+    
+</body>
+</html>

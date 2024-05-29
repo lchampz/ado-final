@@ -87,6 +87,18 @@
     "imagem": "https://www.olimpiadatododia.com.br/wp-content/uploads/2020/09/Birgit_Fischer.jpg"
   },
   {
+    "id": 9,
+    "nome": "Sawao Kato",
+    "quantidadeDeMedalhas": {
+      "bronze": 4,
+      "prata": 3,
+      "ouro": 8
+    },
+    "nacionalidade": "Japão",
+    "esporte": "Ginástica Artística",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGkJtUQULzuWURQfKyyALAZv6kPz-SvXRP2tfHjmVZA&s"
+  },
+  {
     "id": 8,
     "nome": "Nikolai Andrianov",
     "quantidadeDeMedalhas": {
@@ -99,7 +111,7 @@
     "imagem": "https://d2a3o6pzho379u.cloudfront.net/31235.jpg"
   },
   {
-    "id": 9,
+    "id": 10,
     "nome": "Borys Shakhlin",
     "quantidadeDeMedalhas": {
       "bronze": 1,
@@ -109,17 +121,5 @@
     "nacionalidade": "União Soviética",
     "esporte": "Ginástica Artística",
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvGCKvu0EsIiRsqW7yzTpr59I0BPbkzBalM7cfLgvx_A&s"
-  },
-  {
-    "id": 10,
-    "nome": "Sawao Kato",
-    "quantidadeDeMedalhas": {
-      "bronze": 4,
-      "prata": 3,
-      "ouro": 8
-    },
-    "nacionalidade": "Japão",
-    "esporte": "Ginástica Artística",
-    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGkJtUQULzuWURQfKyyALAZv6kPz-SvXRP2tfHjmVZA&s"
   }
 ]

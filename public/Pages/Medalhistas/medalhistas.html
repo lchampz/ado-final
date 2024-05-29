@@ -11,13 +11,25 @@
     />
   
     <link rel="stylesheet" href="../../css/medalhistas.css" />
+    <link rel="stylesheet" href="../../css/Esportes/dashboardEsportes.css" />
     <title>Medalhistas</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <img src="../../images/Esportes/image2.png" alt="Logo jogos olimpicos Paris 2024">
+          <ul>
+              <li><a href="../Home/index.html">HOME</a></li>
+              <li><a class="actual" href="../Medalhistas/medalhistas.html">HALL DA FAMA</a></li>
+              <li><a href="../Esportes/dashboardEsportes.html">ESPORTES</a></li>
+              <li><a href="../Estadios/estadios.html">ESTÁDIOS</a></li>
+          </ul>
+      </nav>
+  </header>
     <span class="title">
-      <img style="width: 100px;" src="https://olympics.com/images/static/b2p-images/logo_color.svg" />
-      <p><b style="color: #FCB742">H</b><b style="color: #0081C8">a</b><b style="color:#00A651">l</b>l  da F<b style="color: #0081C8">a</b><b style="color: #FCB742">m</b><b style="color: #00A651">a</b></p>
-      <img style="width: 100px;" src="https://atarde.com.br/img/Artigo-Destaque/1230000/Sedes-dos-Jogos-de-Paris-2024-tem-seguranca-reforc0123428900202307031751.jpg?xid=5875674" />
+    
+      <p style="color: white">Hall da Fama</p>
+   
     </span>
     <div class="podium-wrapper">
       <span id="pos-2" class="col">
@@ -41,6 +53,12 @@
     <div class="wrapper-cards" id="wrapper-cards">
       
     </div>
-    <script src="../../js/medalhistas.js"></script>
+
+    <div class="chart-box" id="wrapper-chart">
+      <p id="player-chart-name"></p>
+      <canvas  id="chart"></canvas>
+    </div>
+    <script type="module" src="../../js/medalhistas.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
   </body>
 </html>
