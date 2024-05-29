@@ -8,7 +8,7 @@ Para rodar esse projeto, você vai precisar rodar os seguintes comandos:
 
 `npm start` -> para iniciar seu projeto!
 
-agora, basta entrar na url `http:/localhost/public/index.html` para acessar a aplicação
+agora, basta entrar na url `http://localhost:8080/Pages/Home/index.html` para acessar a aplicação
 
 
 
