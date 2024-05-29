@@ -82,34 +82,59 @@ nav ul li a:hover:after {
 
 .cards {
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 32px;
-    margin-top: 100px;
+    gap: 40px;
+    margin: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    flex: 1;
 }
 
-.card {
-    background-color: #FFFFFF;
-    color: #000000;
-    border-radius: 6px;
-    padding: 12px 24px;
-    margin-bottom: 12px;
-    width: fit-content;
-    text-align: center;
+.card-esports img {
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
 }
 
-.card h2 {
-    color: #1E3A5F;
+.card-esports {
+    width: 100%;
+    padding: 1rem;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 600px;
+    max-width: 600px;
+    display: flex;
+    border-radius: 10px;
+    gap: 15px;
+    color: black;
+    background-color: white;
+    z-index: 10;
+}
+.card-desc-esport p {
+ padding: 0;
+ margin: 0;
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+.tabs {
+    margin-top: -40px;
+    position: absolute;
+}
+
+.tab {
+    background-color: white;
+    padding: 0.6rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+span[role="active"] {
     font-weight: bold;
-    font-size: 1.125rem; /* 18px converted to rem for responsiveness */
-    margin: 0;
 }
-
-.card a {
-    display: block;
-    color: #000000;
-    font-style: italic;
-    font-size: 1.125rem; /* 18px converted to rem for responsiveness */
-    margin-top: 8px;
-    text-decoration: none;
+span[role="inactive"] {
+    font-weight: normal;
+    
 }

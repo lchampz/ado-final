@@ -20,5 +20,9 @@ router.get("/estadios", (req, res) => {
   res.send(estadios);
 })
 
+router.get("/esportes", (req, res) => {
+  res.send(esportes);
+})
+
 
 module.exports = router;

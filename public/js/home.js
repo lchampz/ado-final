@@ -1,4 +1,4 @@
-fetch("http://localhost:8080/home")
+fetch("http://localhost:3080/home")
   .then((response) => response.json())
   .then((data) => {
     const wrapper = document.getElementById("wrapper-cards");

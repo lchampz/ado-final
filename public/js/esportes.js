@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080/esportes";
+const BASE_URL = "http://localhost:3080/esportes";
 
 
 async function getMedalhistas() {
