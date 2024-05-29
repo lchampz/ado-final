@@ -114,5 +114,9 @@ addEventListener("load", async () => {
     if (item.podium) podium.push(item);
     else players.push(item);
   });
+  confetti.start(1000);  // 1000 ms para começar
+  setTimeout(() => {
+    confetti.stop();
+  }, 5000);  // 5000 ms para parar
   createCards();
 });
